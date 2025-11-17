@@ -1,0 +1,246 @@
+
+FastHenry 3.0, (c) by M.I.T.
+FastHenry2 Windows porting and modifications, version 3.6
+    (c) 1998, 2015 by Enrico Di Lorenzo, www.fastfieldsolvers.com
+
+Running FastHenry 3.0 (29Sep96)
+  Date: Mon Nov 17 22:27:39 2025
+Solution technique: ITERATIVE
+Matrix vector product method: MULTIPOLE
+  Order of expansion: 2
+Preconditioner: ON
+Error tolerance: 0.001
+Reading from file: D:\Ansys\MasterThesis\Python\Stand_17.11.2025\Stand_17.11.2025\Example\K1_N2.00\FastSolver_Using_FreeCad\fasthenry_input_file.inp
+Title:
+* FastHenry input file created using FreeCAD's ElectroMagnetic Workbench
+
+all lengths multiplied by 0.001 to convert to meters
+Total number of filaments before multipole refine: 396
+Total number of filaments after multipole refine: 396
+
+Multipole Summary
+  Expansion order: 2
+  Number of partitioning levels: 3
+  Total number of filaments: 396
+Percentage of multiplies done by multipole: 100%
+Scanning graph to find fundamental circuits...
+Number of Groundplanes : 0 
+Number of filaments:        396
+Number of segments:         396
+Number of nodes:            400
+Number of meshes:             4
+          ----from tree:                   4 
+          ----from planes: (before holes)  0 
+Number of conductors:         4   (rows of matrix in Zc.mat) 
+Number of columns:            4   (columns of matrix in Zc.mat) 
+Number of real nodes:       400
+filling M...
+filling R and L...
+Total Memory allocated: 1043 kilobytes
+Frequency = 1
+Forming sparse matrix preconditioner..
+conductor 0 from node nsection-4_node_1
+Calling gmres...
+1 2 3 
+conductor 1 from node nsection-3_node_1
+Calling gmres...
+1 2 3 
+conductor 2 from node nsection-2_node_1
+Calling gmres...
+1 2 3 
+conductor 3 from node nsection-1_node_1
+Calling gmres...
+1 2 3 
+Frequency = 10
+Forming sparse matrix preconditioner..
+conductor 0 from node nsection-4_node_1
+Calling gmres...
+1 2 3 
+conductor 1 from node nsection-3_node_1
+Calling gmres...
+1 2 3 
+conductor 2 from node nsection-2_node_1
+Calling gmres...
+1 2 3 
+conductor 3 from node nsection-1_node_1
+Calling gmres...
+1 2 3 
+Frequency = 100
+Forming sparse matrix preconditioner..
+conductor 0 from node nsection-4_node_1
+Calling gmres...
+1 2 3 
+conductor 1 from node nsection-3_node_1
+Calling gmres...
+1 2 3 
+conductor 2 from node nsection-2_node_1
+Calling gmres...
+1 2 3 
+conductor 3 from node nsection-1_node_1
+Calling gmres...
+1 2 3 
+Frequency = 1000
+Forming sparse matrix preconditioner..
+conductor 0 from node nsection-4_node_1
+Calling gmres...
+1 2 3 
+conductor 1 from node nsection-3_node_1
+Calling gmres...
+1 2 3 
+conductor 2 from node nsection-2_node_1
+Calling gmres...
+1 2 3 
+conductor 3 from node nsection-1_node_1
+Calling gmres...
+1 2 3 
+Frequency = 10000
+Forming sparse matrix preconditioner..
+conductor 0 from node nsection-4_node_1
+Calling gmres...
+1 2 3 4 
+conductor 1 from node nsection-3_node_1
+Calling gmres...
+1 2 3 4 
+conductor 2 from node nsection-2_node_1
+Calling gmres...
+1 2 3 4 
+conductor 3 from node nsection-1_node_1
+Calling gmres...
+1 2 3 4 
+Frequency = 100000
+Forming sparse matrix preconditioner..
+conductor 0 from node nsection-4_node_1
+Calling gmres...
+1 2 3 4 
+conductor 1 from node nsection-3_node_1
+Calling gmres...
+1 2 3 4 
+conductor 2 from node nsection-2_node_1
+Calling gmres...
+1 2 3 4 
+conductor 3 from node nsection-1_node_1
+Calling gmres...
+1 2 3 4 
+Frequency = 1e+06
+Forming sparse matrix preconditioner..
+conductor 0 from node nsection-4_node_1
+Calling gmres...
+1 2 3 4 
+conductor 1 from node nsection-3_node_1
+Calling gmres...
+1 2 3 4 
+conductor 2 from node nsection-2_node_1
+Calling gmres...
+1 2 3 4 
+conductor 3 from node nsection-1_node_1
+Calling gmres...
+1 2 3 4 
+Frequency = 1e+07
+Forming sparse matrix preconditioner..
+conductor 0 from node nsection-4_node_1
+Calling gmres...
+1 2 3 4 
+conductor 1 from node nsection-3_node_1
+Calling gmres...
+1 2 3 4 
+conductor 2 from node nsection-2_node_1
+Calling gmres...
+1 2 3 4 
+conductor 3 from node nsection-1_node_1
+Calling gmres...
+1 2 3 4 
+Frequency = 1e+08
+Forming sparse matrix preconditioner..
+conductor 0 from node nsection-4_node_1
+Calling gmres...
+1 2 3 4 
+conductor 1 from node nsection-3_node_1
+Calling gmres...
+1 2 3 4 
+conductor 2 from node nsection-2_node_1
+Calling gmres...
+1 2 3 4 
+conductor 3 from node nsection-1_node_1
+Calling gmres...
+1 2 3 4 
+Frequency = 1e+09
+Forming sparse matrix preconditioner..
+conductor 0 from node nsection-4_node_1
+Calling gmres...
+1 2 3 4 
+conductor 1 from node nsection-3_node_1
+Calling gmres...
+1 2 3 4 
+conductor 2 from node nsection-2_node_1
+Calling gmres...
+1 2 3 4 
+conductor 3 from node nsection-1_node_1
+Calling gmres...
+1 2 3 4 
+
+Computed matrices (R+jL)
+ Row 0:  nsection-1_node_1 to nsection-1_node_100
+ Row 1:  nsection-2_node_1 to nsection-2_node_100
+ Row 2:  nsection-3_node_1 to nsection-3_node_100
+ Row 3:  nsection-4_node_1 to nsection-4_node_100
+ Freq = 1
+  Row 0: 0.603155+6.126e-07j -1.34255e-24+3.89897e-07j -9.19269e-25+3.14219e-07j 1.65275e-24+2.65854e-07j 
+  Row 1: 2.1245e-25+3.89986e-07j 0.603155+6.12473e-07j 2.38461e-24+3.89799e-07j -2.05987e-24+3.14142e-07j 
+  Row 2: -2.0518e-24+3.14373e-07j 2.38461e-24+3.89867e-07j 0.603155+6.12378e-07j 2.10026e-25+3.89722e-07j 
+  Row 3: 1.68829e-24+2.66049e-07j -9.12807e-25+3.14258e-07j -1.29893e-24+3.89773e-07j 0.603155+6.12299e-07j 
+ Freq = 10
+  Row 0: 0.603155+6.126e-07j -1.31375e-20+3.89897e-07j -9.08565e-21+3.14219e-07j 1.67676e-20+2.65854e-07j 
+  Row 1: 2.23773e-21+3.89986e-07j 0.603155+6.12473e-07j 2.39538e-20+3.89799e-07j -2.07215e-20+3.14142e-07j 
+  Row 2: -2.0717e-20+3.14373e-07j 2.39639e-20+3.89867e-07j 0.603155+6.12378e-07j 2.23608e-21+3.89722e-07j 
+  Row 3: 1.67607e-20+2.66049e-07j -9.08575e-21+3.14258e-07j -1.31294e-20+3.89773e-07j 0.603155+6.12299e-07j 
+ Freq = 100
+  Row 0: 0.603155+6.126e-07j -1.31359e-16+3.89897e-07j -9.0849e-17+3.14219e-07j 1.67693e-16+2.65854e-07j 
+  Row 1: 2.23538e-17+3.89986e-07j 0.603155+6.12473e-07j 2.39552e-16+3.89799e-07j -2.07191e-16+3.14142e-07j 
+  Row 2: -2.07157e-16+3.14373e-07j 2.39623e-16+3.89867e-07j 0.603155+6.12378e-07j 2.23558e-17+3.89722e-07j 
+  Row 3: 1.67618e-16+2.66049e-07j -9.08255e-17+3.14258e-07j -1.31282e-16+3.89773e-07j 0.603155+6.12299e-07j 
+ Freq = 1000
+  Row 0: 0.603155+6.126e-07j -1.31322e-12+3.89897e-07j -9.08239e-13+3.14219e-07j 1.67638e-12+2.65854e-07j 
+  Row 1: 2.23504e-13+3.89986e-07j 0.603155+6.12473e-07j 2.3948e-12+3.89799e-07j -2.07124e-12+3.14142e-07j 
+  Row 2: -2.0709e-12+3.14373e-07j 2.39551e-12+3.89868e-07j 0.603155+6.12378e-07j 2.23521e-13+3.89722e-07j 
+  Row 3: 1.67563e-12+2.66049e-07j -9.08004e-13+3.14258e-07j -1.31245e-12+3.89773e-07j 0.603155+6.12299e-07j 
+ Freq = 10000
+  Row 0: 0.603155+6.126e-07j 1.0842e-18+3.89897e-07j 1.19262e-18+3.14219e-07j -1.0842e-18+2.65854e-07j 
+  Row 1: -2.38524e-18+3.89986e-07j 0.603155+6.12473e-07j -1.30104e-18+3.89799e-07j -3.03577e-18+3.14142e-07j 
+  Row 2: 1.73472e-18+3.14373e-07j 9.75782e-19+3.89867e-07j 0.603155+6.12378e-07j 1.95156e-18+3.89722e-07j 
+  Row 3: 2.1684e-19+2.66049e-07j -2.38524e-18+3.14258e-07j -2.1684e-18+3.89773e-07j 0.603155+6.12299e-07j 
+ Freq = 100000
+  Row 0: 0.603155+6.126e-07j -8.32667e-17+3.89897e-07j 4.85723e-17+3.14219e-07j -2.77556e-17+2.65854e-07j 
+  Row 1: -4.85723e-17+3.89986e-07j 0.603155+6.12473e-07j -4.16334e-17+3.89799e-07j -8.32667e-17+3.14142e-07j 
+  Row 2: -3.46945e-17+3.14373e-07j -4.85723e-17+3.89867e-07j 0.603155+6.12378e-07j -1.38778e-17+3.89722e-07j 
+  Row 3: 0+2.66049e-07j -1.38778e-17+3.14258e-07j -6.93889e-17+3.89773e-07j 0.603155+6.12299e-07j 
+ Freq = 1e+06
+  Row 0: 0.603155+6.126e-07j -8.32667e-17+3.89897e-07j 0+3.14219e-07j 0+2.65854e-07j 
+  Row 1: 5.82867e-16+3.89986e-07j 0.603155+6.12473e-07j 3.33067e-16+3.89799e-07j 3.33067e-16+3.14142e-07j 
+  Row 2: -2.498e-16+3.14373e-07j -5.82867e-16+3.89867e-07j 0.603155+6.12378e-07j -2.77556e-16+3.89722e-07j 
+  Row 3: 9.99201e-16+2.66049e-07j 9.99201e-16+3.14258e-07j 1.27676e-15+3.89773e-07j 0.603155+6.12299e-07j 
+ Freq = 1e+07
+  Row 0: 0.603155+6.126e-07j 1.11022e-16+3.89897e-07j -1.66533e-16+3.14219e-07j -1.11022e-16+2.65854e-07j 
+  Row 1: 5.27356e-16+3.89986e-07j 0.603155+6.12473e-07j 0+3.89799e-07j 1.66533e-16+3.14142e-07j 
+  Row 2: 1.38778e-16+3.14373e-07j -8.32667e-17+3.89867e-07j 0.603155+6.12378e-07j -3.33067e-16+3.89722e-07j 
+  Row 3: 5.55112e-16+2.66049e-07j 6.66134e-16+3.14258e-07j 7.21645e-16+3.89773e-07j 0.603155+6.12299e-07j 
+ Freq = 1e+08
+  Row 0: 0.603155+6.126e-07j 3.60822e-16+3.89897e-07j 4.996e-16+3.14219e-07j 3.33067e-16+2.65854e-07j 
+  Row 1: 1.11022e-15+3.89986e-07j 0.603155+6.12473e-07j 1.47105e-15+3.89799e-07j 1.11022e-15+3.14142e-07j 
+  Row 2: 7.49401e-16+3.14373e-07j 9.15934e-16+3.89867e-07j 0.603155+6.12378e-07j 1.16573e-15+3.89722e-07j 
+  Row 3: 8.88178e-16+2.66049e-07j 1.16573e-15+3.14258e-07j 9.4369e-16+3.89773e-07j 0.603155+6.12299e-07j 
+ Freq = 1e+09
+  Row 0: 0.603155+6.126e-07j 2.77556e-17+3.89897e-07j 4.16334e-16+3.14219e-07j 2.77556e-16+2.65854e-07j 
+  Row 1: 5.55112e-16+3.89986e-07j 0.603155+6.12473e-07j 8.88178e-16+3.89799e-07j 4.44089e-16+3.14142e-07j 
+  Row 2: -4.71845e-16+3.14373e-07j -4.16334e-16+3.89867e-07j 0.603155+6.12378e-07j -6.66134e-16+3.89722e-07j 
+  Row 3: 1.11022e-16+2.66049e-07j 0+3.14258e-07j 2.22045e-16+3.89773e-07j 0.603155+6.12299e-07j 
+
+All impedance matrices dumped to file Zc.mat
+
+Times:  Read geometry   0.0389998
+        Multipole setup 0.0730002
+        Scanning graph  0.00299978
+        Form A M and Z  0.0170002
+        form M'ZM       0
+        Form precond    0.0440001
+        GMRES time      0.846
+   Total:               1.022
