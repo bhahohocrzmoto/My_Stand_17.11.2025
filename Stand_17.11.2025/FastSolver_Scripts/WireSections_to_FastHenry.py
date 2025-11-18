@@ -296,10 +296,19 @@ def write_fasthenry_input(
             # Create node names for each point in this section
             node_names = []
             for idx, x, y, z, line_no in pts:
+                # FastHenry expects the same node identifiers when they are
+                # referenced later in segment/port definitions.  The original
+                # implementation wrote node definitions prefixed with an
+                # additional 'N' (e.g. nodes were named `NS1N1` while segments
+                # connected `S1N1`).  As a consequence FastHenry reported
+                # "No node read in yet named ..." for every element.  We keep
+                # the concise "S{section}N{index}" naming convention but use it
+                # consistently for node definitions and the segment/port
+                # references.
                 node_name = f"{prefix}N{idx}"  # e.g. S1N1, S1N2, ...
                 node_names.append(node_name)
                 f.write(
-                    f"N{node_name} x={x:.8g} y={y:.8g} z={z:.8g}  "
+                    f"{node_name} x={x:.8g} y={y:.8g} z={z:.8g}  "
                     f"* src_line={line_no}\n"
                 )
 
